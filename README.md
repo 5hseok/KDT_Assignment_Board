@@ -1,6 +1,8 @@
 # KDT_Assignment_Board
 
 ## DB 스키마 
+
+```sql
 Hibernate: 
     create table comment (
         comment_create_date datetime(6),
@@ -28,7 +30,7 @@ Hibernate:
        add constraint FKs1slvnkuemjsq2kj4h3vhx7i1 
        foreign key (post_id) 
        references post (id)
-
+``` 
 ## 게시글 (Post)
 - 등록
 - 수정
