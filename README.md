@@ -1,6 +1,11 @@
 # KDT_Assignment_Board
 
 ## DB 스키마 
+### Post Entity
+<img width="462" alt="image" src="https://github.com/user-attachments/assets/a6ed4a9b-96f0-4991-8c75-0e91d1cf7b7b">
+
+### Comment Entity
+<img width="487" alt="image" src="https://github.com/user-attachments/assets/25ddb24e-e94f-4cd6-82d4-726b7a0c83f5">
 
 ```sql
 Hibernate: 
