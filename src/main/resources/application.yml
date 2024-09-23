@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: BoardAssignment
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/testDB?characterEncoding=UTF-8
+    username: root
+    password: hyeanseok1010!
+  sql:
+    init:
+      mode: always
+  jpa:
+    database: h2
+    generate-ddl: false
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
